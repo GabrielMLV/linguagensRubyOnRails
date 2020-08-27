@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @language.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @language.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @language.price %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @language.quantity %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @language.status %>
+</p>
+
+<p>
+  <strong>Date created:</strong>
+  <%= @language.date_created %>
+</p>
+
+<%= link_to 'Edit', edit_language_path(@language), :class => "btn btn-warning" %> |
+<%= link_to 'Back', languages_path, :class => "btn btn-secondary" %>

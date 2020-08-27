@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+
+$white: rgb(68, 67, 177);
+$black: rgb(255, 255, 255);
+
+.navbar {
+  margin-bottom: 0;
+  background: $white;
+}
+html{
+  font-family: "Merriweather", sans-serif;
+}
+body {
+  font-family: "Merriweather", sans-serif;
+}
+h1,
+h2 {
+  font-weight: bold;
+  color: rgb(68, 67, 177);
+}
+p {
+  font-size: 16px;
+  color: $white;
+}
+
+.btn {
+  color: white !important;
+}
